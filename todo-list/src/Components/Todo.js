@@ -27,7 +27,6 @@ const Button = styled.button`
 `;
 
 const Todo = ({ todo: { id, name, done }, toggleTodo, deleteTodo }) => {
-  console.log(done);
   return (
     <Task>
       <div>

@@ -50,7 +50,6 @@ const TodoApp = () => {
 
   // custom functions
   const deleteTodo = (id) => {
-    console.log('delete');
     const remainingTodos = todos.filter((todo) => todo.id !== id);
     setTodos(remainingTodos);
   };
@@ -67,13 +66,11 @@ const TodoApp = () => {
     setTodos(newTodos);
   };
   const handleAddTodo = () => {
-    console.log('handle todo');
     const name = todoNameRef.current.value;
     if (name === '') return alert('please insert todo name!');
     setTodos((prevTodos) => {
       return [...prevTodos, { id: uuidv4(), name: name, done: false }];
     });
-    // todoNameRef.current.value = '';
   };
 
   return (
