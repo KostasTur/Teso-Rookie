@@ -1,1 +1,12 @@
-Task Description
+Technical Task
+Create a TODO list app. The user should be able to add an item, remove an item, mark
+an item as complete and mark completed item as incomplete. The app should list both
+completed and uncompleted items.
+* App should be written in functional style.
+* App code should be clean and elegant.
+* App code should be as simple as possible and it should explain itself.
+* Extra points for nice UI
+* Extra points for restoring previous list on webpage refresh
+Upload the completed technical task to GitHub's public repository OR archive all the
+files. If you’re sending a .zip file, name it like this: [name.lastname.zip]
+The GitHub link or .zip file needs to be sent to internship@tesonet.com
